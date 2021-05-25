@@ -17,6 +17,10 @@ In today’s world, it is possible to just download a BMI Calculator App on your
 <img src="app/src/main/res/drawable/bmi.jpg"/>
 </p>	
 
+ <p align="center">
+<br><img src="https://github.com/mayur-hajare/BMI/blob/a7ed12d65a28c864ee9957de0b2749dcfacb4bbf/app/src/main/res/drawable/health-loader.gif" width="350px"><br><br>
+</p>
+
 # About the BMI Calculator App
 BMI corresponds to “body mass index” which is a value derived from your height and your weight. 
 With a BMI calculator app, you can find out whether you are anorexic, in good shape, overweight or obese. 

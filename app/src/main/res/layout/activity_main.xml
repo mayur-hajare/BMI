@@ -29,7 +29,8 @@
         android:layout_above="@+id/heightlayout"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:layout_toStartOf="@+id/centralvertical"
         android:background="@drawable/genderbackground"
         android:elevation="10dp">
@@ -62,7 +63,7 @@
         android:layout_above="@+id/heightlayout"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
         android:layout_toEndOf="@+id/centralvertical"
         android:background="@drawable/genderbackground">
 

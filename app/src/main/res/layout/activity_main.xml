@@ -152,15 +152,13 @@
     <android.widget.Button
         android:id="@+id/caculatebmi"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/weightlayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
         android:background="@drawable/buttonbackground"
         android:fontFamily="@font/ubuntur"
         android:padding="10dp"
-        android:text="CAlculate BMI"
+        android:text="Calculate BMI"
         android:textColor="@color/white"
         android:textSize="20sp" />
 

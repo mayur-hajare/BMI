@@ -200,23 +200,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp">
 
             <ImageView
                 android:id="@+id/subweight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sub_circle"
-                />
+                android:src="@drawable/sub_circle" />
+
             <ImageView
                 android:id="@+id/addweight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/add_circle"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                />
+                android:src="@drawable/add_circle" />
         </RelativeLayout>
 
     </RelativeLayout>
@@ -226,11 +225,11 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_below="@id/heightlayout"
+        android:layout_alignParentEnd="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
-        android:layout_alignParentEnd="true"
         android:layout_toStartOf="@id/centralvertical"
         android:background="@drawable/genderbackground">
 
@@ -261,24 +260,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp">
 
             <ImageView
                 android:id="@+id/subage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sub_circle"
-                />
+                android:src="@drawable/sub_circle" />
+
             <ImageView
                 android:id="@+id/addage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/add_circle"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                />
+                android:src="@drawable/add_circle" />
         </RelativeLayout>
 
-
+    </RelativeLayout>
 </RelativeLayout>

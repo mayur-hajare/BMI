@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_centerInParent="true"
     android:layout_gravity="center"
-
     android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -31,7 +31,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="30dp"
         android:layout_toStartOf="@+id/centralvertical"
-        android:background="@drawable/genderbackground">
+        android:background="@drawable/genderbackground"
+        android:elevation="10dp">
 
         <ImageView
             android:layout_width="170px"
@@ -141,6 +142,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:max="200"
+
             android:progress="100"
             android:progressTint="@color/button"
             android:thumbTint="@color/button" />
@@ -151,8 +153,9 @@
         android:id="@+id/caculatebmi"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/weightlayout"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/buttonbackground"
         android:fontFamily="@font/ubuntur"

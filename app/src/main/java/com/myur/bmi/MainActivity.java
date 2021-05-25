@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                intWeight = intWeight + 1;
+                intWeight = intWeight - 1;
                 weight2 = String.valueOf(intWeight);
                 mCurrentWeight.setText(weight2);
 

@@ -13,7 +13,9 @@
 <p align="center">  
 In today’s world, it is possible to just download a BMI Calculator App on your phone, and find out whether your body is in good shape or bad shape.</br>
 
-
+<p align="center">
+<img src="app/src/main/res/drawable/demo.jpg" width="150"/>
+</p>
 
  <p align="center">
 <br><img src="https://github.com/mayur-hajare/BMI/blob/a7ed12d65a28c864ee9957de0b2749dcfacb4bbf/app/src/main/res/drawable/health-loader.gif" width="350px"><br><br>
